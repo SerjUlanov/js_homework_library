@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit 14</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>UNIT 14. API Погода</h1>
+        <h2><a href="https://itgid.info/course/javascript-2" target="_blank">JavaScript v.2.0 - курс Лущенко
+                Александра</a></h2>
+
+            <div class="row">
+                <div class="col col-auto">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          В каком городе<br> 
+                          интересует погода?
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#" data-sity="1">Коломна</a></li>
+                          <li><a class="dropdown-item" href="#" data-sity="2">Москва</a></li>
+                          <li><a class="dropdown-item" href="#" data-sity="3">Киев</a></li>
+                          <li><a class="dropdown-item" href="#" data-sity="4">Минск</a></li>
+                          <li><a class="dropdown-item" href="#" data-sity="5">Абуджа, Нигерия</a></li>
+                        </ul>      
+                      </div>
+              </div>
+                <div class="col col-auto">
+                    <div class="pricing-table">
+                        <div class="package featured">
+                            <p class="package-name format_text">тут будет город</p>
+                            <hr>
+                            <p class="price format_text">тут будет температура</p>
+                            <p class="disclaimer format_text">тут будет облачность</p>
+                            <hr>
+                            <div class="features">
+                                тут будет миниатюра
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p>Неприятный баг - что смена города срабатывает со 2 раза при первом обращении </p>
+     
+
+    </div>
+
+    <script src="unit_14.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
